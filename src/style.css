@@ -1,0 +1,16 @@
+
+.bi-suit-heart-fill, .bi-suit-diamond-fill{
+    color:red;
+}
+.card-footer{
+    /* flip vertically */
+    transform: scaleY(-1);
+}
+.card{
+    /* filter:sepia(40%); */
+    background: radial-gradient(transparent 30%, floralwhite 75%, rgb(248, 235, 217));
+    /* background: repeating-linear-gradient(36deg, floralwhite, antiquewhite 1px, transparent 0px, transparent 2px); */
+}
+.sm-suit{
+    font-size: 150%;
+}
